@@ -31,7 +31,7 @@ public class Facturation {
         this.calls = calls;
     }
 
-    public double calculateTotal() {
+    private double calculateTotal() {
         double totalCost = 0;
         for (Call call : calls) {
             if (call.getType().equals("local")) {
