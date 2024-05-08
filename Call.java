@@ -66,3 +66,9 @@ public class Call {
     }
 
 }
+
+// Tambien se podria haber resuelto con una herencia, es decir la clase padre
+// call y los hijos de la herencia CallInternational para las llamadas
+// internacionales que herede los datos de call pero a su vez agregue pais ya
+// que es la unica que lo utiliza, y CallNational que agregue la localidad con
+// la misma finalidad.
