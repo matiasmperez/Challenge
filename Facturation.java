@@ -1,6 +1,8 @@
 import java.util.ArrayList;
 
 public class Facturation {
+    // El basico por mes podria ser un enumeration con distintos tipos segun el tipo
+    // de cliente en caso de que existiera mas adelante.
     private double basicMonthlyPass;
     private ArrayList<Call> calls;
     private int totalLocal = 0;
@@ -20,6 +22,7 @@ public class Facturation {
         return calls;
     }
 
+    // no se usan pero se definen
     public void setBasicMonthlyPass(double basicMonthlyPass) {
         this.basicMonthlyPass = basicMonthlyPass;
     }

@@ -6,6 +6,7 @@ public class Call {
     private String day;
     private int hour;
 
+    // constructor
     public Call(int duration, String type, String country, String location, String day, int hour) {
         this.duration = duration;
         this.type = type;
@@ -40,11 +41,11 @@ public class Call {
     }
 
     // no se usan pero se definen.
-    protected void setDuration(int duration) {
+    public void setDuration(int duration) {
         this.duration = duration;
     }
 
-    protected void setType(String type) {
+    public void setType(String type) {
         this.type = type;
     }
 
